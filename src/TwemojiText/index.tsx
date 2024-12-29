@@ -36,7 +36,7 @@ const TwemojiText: React.VFC<TextProps & TwemojiTextProps> = ({
                 height: textStyle?.fontSize ?? 14
             }}
             source={{
-                uri: `https://twemoji.maxcdn.com/2/72x72/${emojiUnicode(
+                uri: `https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/${emojiUnicode(
                     emoji
                 )}.png`,
             }}
